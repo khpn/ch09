@@ -19,7 +19,7 @@ static void OutputFileSystemInfo()
     WriteLine($" Personal: {GetFolderPath(SpecialFolder.Personal)}");
 }
 
-static void Main(string[] args)
-{
-    OutputFileSystemInfo();
-}
+
+OutputFileSystemInfo();
+
+Console.WriteLine("Hello, World!");
